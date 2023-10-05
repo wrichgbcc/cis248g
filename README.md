@@ -1,4 +1,4 @@
 # cis248g
 
-William Rich
-10/4/23
+Name: William Rich
+Date: 10/4/23
