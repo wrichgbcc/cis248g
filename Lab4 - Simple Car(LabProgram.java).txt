@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      SimpleCar newCar = new SimpleCar();
+      
+      int milesForward = scnr.nextInt();
+      int milesReverse = scnr.nextInt();
+       
+      newCar.drive(milesForward);
+      newCar.reverse(milesReverse);
+      
+      newCar.honkHorn();
+      newCar.report();
+   }
+}
